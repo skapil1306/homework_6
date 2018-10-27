@@ -1,0 +1,220 @@
+/* Global styles */
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Krub', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* styles for navigation bar start here*/
+header {
+    background-color: white;
+    color: brown;
+    min-height: 70px;
+    border-bottom: brown 3px solid;
+}
+
+.bunbunlogo {
+    font-family: 'Parisienne', cursive;
+    font-size: 20px;
+    margin: 0;
+    padding-left: 20px;
+}
+
+
+header a {
+    color: brown;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0px 30px 0px 0px;
+    font-family: 'Krub', sans-serif;
+    font-size: 20px;
+}
+
+header #logo {
+    float: left;
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    padding-top: 45px;
+}
+
+header a:hover {
+    color: black;
+}
+
+.button {
+    text-decoration-color: white;
+    color: white;
+    background-color: darkred;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 24px;
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.page-title {
+    text-align: center;
+    color: black;
+    font-family: 'Parisienne', cursive;
+    font-size: 20px;
+}
+
+/* Local styles */
+/* showcase */
+#showcase {
+    min-height: 710px;
+    background:url(../img/cover_rolls.jpg) no-repeat center 60px fixed;
+    background-size: cover;
+    color: white;
+    font-family: 'Parisienne', cursive;
+    font-size: 40px;
+    padding-left: 30px;
+    padding-top: 90px;
+}
+
+/*Column with heading on the home page*/
+.col-home {
+    float: left;
+    width: 40%;
+    text-align: center;
+}
+
+
+/* Menu boxes*/
+#boxes {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#boxes .box {
+    text-align: center;
+    float: left;
+    width: 20%;
+    padding: 20px;
+    margin: 4.8%;
+    border: 1px solid black;
+}
+#boxes .box:hover {
+    box-shadow: 9px 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#boxes .box img {
+    width: 90%;
+}
+/* For description pages */
+
+#detail-box {
+    margin: 40px;
+}
+
+#detail-box .box-detail {
+    float: left;
+    padding: 30px;
+    width: 33%;
+}
+
+#detail-box .box-detail img {
+    width: 100%;
+}
+
+#detail-box .description {
+    float: right;
+    width: 60%;
+}
+
+.description-title {
+    text-align: left;
+    color: black;
+    font-family: 'Parisienne', cursive;
+    font-size: 25px;
+    border-bottom: brown 2px solid;
+}
+
+.description h2 {
+    font-family: 'Krub', sans-serif;
+    font-size: 30px;
+    color: darkred;
+}
+
+/*Buttons for customization of rolls on the description pages*/
+.custom {
+    color: darkred;
+    background-color: white;
+    border: 2px solid darkred;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 24px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.custom:hover {
+    box-shadow: 9px 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/*go back button on description page*/
+.back-button {
+    color: brown;
+    background-color:floralwhite;
+    border: 2px solid brown;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 24px;
+    margin-right: 20px;
+}
+
+.back-button:hover {
+    box-shadow: 9px 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+#numCart {
+    color: white;
+    background-color: darkred;
+    padding-right: 3px;
+    padding-left: 3px;
+    border-radius: 60%;
+}
+
+
+
+

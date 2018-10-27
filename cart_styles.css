@@ -1,0 +1,176 @@
+/* Cart page styles start here */
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* styles for navigation bar start here*/
+
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+header {
+    background-color: white;
+    color: brown;
+    min-height: 70px;
+    border-bottom: brown 3px solid;
+}
+
+.bunbunlogo {
+    font-family: 'Parisienne', cursive;
+    font-size: 20px;
+    margin: 0;
+    padding-left: 20px;
+}
+
+
+header a {
+    color: brown;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0px 30px 0px 0px;
+    font-family: 'Krub', sans-serif;
+    font-size: 20px;
+}
+
+header #logo {
+    float: left;
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    padding-top: 45px;
+}
+
+header a:hover {
+    color: black;
+}
+
+.page-title {
+    text-align: center;
+    color: black;
+    font-family: 'Parisienne', cursive;
+    font-size: 20px;
+}
+
+.cart-container {
+    background-color: white;
+    color: black;
+    min-height: 40px;
+    border-bottom: black 1px solid;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.cart-container li {
+    display: inline;
+    float: right;
+    padding-right: 8%;
+    font-family: 'Krub', sans-serif;
+    font-size: 18px;
+}
+
+#remove {
+    color: white;
+}
+
+#normal {
+    color: black;
+}
+
+.all-cart-elements {
+    display: inline-block;
+    float: right;
+    font-family: 'Krub', sans-serif;
+    font-size: 18px;
+    border-bottom: black 1px solid;
+}
+
+.cart-box {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 5%;
+    border: 1px solid black;
+    height: 150px;
+}
+
+.cart-box img {
+    width: 15%;
+    padding-bottom: 5%;
+    padding-left: 3%;
+    float: left;
+}
+
+.cart-box h4 {
+    margin-top: 5%;
+    font-family: 'Krub', sans-serif;
+}
+
+.cart-box li {
+    display: inline-flex;
+    justify-content: flex-end;
+    float: right;
+    margin-top: 5%;
+    padding-right: 10%;
+    font-family: 'Krub', sans-serif;
+}
+
+button {
+    text-decoration-color: black;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 24px;
+}
+
+#last h2 {
+    float: left;
+    margin: 5%;
+    font-family: 'Krub', sans-serif;
+}
+
+.placeOrder {
+    float: right;
+    margin: 5%;
+    text-decoration-color: white;
+    color: white;
+    background-color: darkred;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 24px;
+}
+
+#numCart {
+    color: white;
+    background-color: darkred;
+    padding-right: 3px;
+    padding-left: 3px;
+    border-radius: 60%;
+}
